@@ -118,10 +118,10 @@ function drawUserName(ctx, canvas, name, frameY, frameSize) {
     const plateX = (canvas.width - plateWidth) / 2;
 
     // Background plate
-    ctx.fillStyle = "rgba(0, 0, 0, 0.80)";
-    ctx.beginPath();
-    ctx.roundRect(plateX, nameY - 45, plateWidth, 90, 25);
-    ctx.fill();
+    // ctx.fillStyle = "rgba(0, 0, 0, 0.80)";
+    // ctx.beginPath();
+    // ctx.roundRect(plateX, nameY - 45, plateWidth, 90, 25);
+    // ctx.fill();
 
     // Name text
     ctx.fillStyle = "#FF9900";
